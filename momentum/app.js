@@ -1,4 +1,4 @@
-const amIFat = true;
+const amIFat = null;
 const amISlim = false;
 console. log(amIFat)
 console. log(amISlim)
