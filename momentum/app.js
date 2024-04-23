@@ -1,8 +1,8 @@
-const a = 5;
-const b = 2;
-const myName = "HongTak"
+let a = 5;
+let b = 2;
+let myName = "HongTak" 
 
 console. log(5 + b);
 console. log(5 * b);
 console. log(5 / b);
-console. log("hello " + myName)
+console. log("your new name is " + myName)
