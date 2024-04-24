@@ -1,8 +1,10 @@
-function plus(firstNumber, secondNumber) {
-    console.log(firstNumber + secondNumber);
-}
-function divide(a, b) {
-    console.log(a / b);
-}
-plus(8, 60);
-divide(98, 20);
+const player = {
+    name: "FourSeason",
+    sayHello: function(otherPersonsName) {
+     console.log("Hello!" + otherPersonsName + " Nice to meet you!")   
+    },
+};
+
+console.log(player.name);
+player.sayHello("FrozonScolpion");
+player.sayHello("Ireney");
