@@ -1,8 +1,19 @@
-const age = 96;
-function calculateKrAge(ageOfForeigner){
-  return  ageOfForeigner + 2;
-}
+const calculator = {
+    add: function(a, b){
+        return a + b;
+    },
+    minus:function (a, b) {
+        return a - b;
+    },
+    div:function (a, b) {
+        return a / b;
+    },
+    multi: function (a, b) {
+        return a * b;
+    },
+    power: function (a, b) {
+        return a ** b;
+    },
+};
 
-const KrAge = calculateKrAge(age);
-
-console.log(KrAge)
+calculator.plus(2, 3);
