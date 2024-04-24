@@ -1,8 +1,6 @@
-function sayHello(){
-  console.log("Hello")
+function sayHello(nameOfPerson){
+  console.log(nameOfPerson)
 }
 
-sayHello()
-sayHello()
-sayHello()
-sayHello()
+console.log("hello");
+sayHello("HongTak");
