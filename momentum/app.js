@@ -1,10 +1,5 @@
-const player = {
-    name: "FourSeason",
-    sayHello: function(otherPersonsName) {
-     console.log("Hello!" + otherPersonsName + " Nice to meet you!")   
-    },
-};
+const toBuy = ["potato", "tomato" , "pizza"];
 
-console.log(player.name);
-player.sayHello("FrozonScolpion");
-player.sayHello("Ireney");
+console.log(toBuy);
+toBuy[2] = "water";
+console.log(toBuy);
