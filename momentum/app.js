@@ -1,5 +1,5 @@
-function plus() {
-    console.log(2 + 2);
+function plus(a, b) {
+    console.log(a + b);
 }
 
-plus();
+plus(5, 10);
