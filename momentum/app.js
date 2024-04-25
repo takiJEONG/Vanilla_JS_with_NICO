@@ -1,4 +1,4 @@
-const h1 = document.querySelector(".hello h1:first-child");
+const h1= document.querySelector(".hello h1:first-child");
 
 function handleTitleClick() {
     h1.style.color = "blue";
