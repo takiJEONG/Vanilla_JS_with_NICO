@@ -1,7 +1,12 @@
 const h1= document.querySelector(".hello h1:first-child");
 
 function handleTitleClick() {
- h1.className = "active";
+ const clickedClass = "clicked sexy-font";
+ if (h1.className === "clickedClass") {
+    h1.className = "";
+ } else {
+    h1.className = "clickedClass";
+ }
 }
 
 
