@@ -3,8 +3,8 @@ const loginInput = document.querySelector("#login-form input");
 
 
 
-function onLoginSubmit() {
-  const username = loginInput.value;
+function onLoginSubmit(event) {
+    tomato.preventDefault();
   console.log(username);
 }
 
