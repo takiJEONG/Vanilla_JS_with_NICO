@@ -4,12 +4,11 @@ const loginButton = document.querySelector("#login-form button")
 
 function btnClick() {
   const username = loginInput.value;
- if(value ===""){
+ if (username === "") {
    alert("Please write your name");
- } else if(username.length > 15){
+ } else if(username.length > 15) {
     alert("Your name is too long.");
  }
-
 }
 
 
