@@ -3,6 +3,7 @@ const loginButton = document.querySelector("#login-form button")
 
 
 function btnClick() {
+console.dir(loginInput)
 console.log("Click!!!")
 }
 
