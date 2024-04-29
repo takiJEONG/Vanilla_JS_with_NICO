@@ -1,9 +1,9 @@
 const loginInput = document.querySelector("#login-form input");
-const loginButton = document.querySelector("login-form button");
+const loginButton = document.querySelector("#login-form button")
 
 
-function btnClick {
- console.log("Click!!!")
+function btnClick() {
+console.log("Click!!!")
 }
 
 
