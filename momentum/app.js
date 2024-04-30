@@ -22,7 +22,10 @@ const savedUsername = localStorage.getItem(USERNAME_KEY);
 console.log(savedUsername);
 
 if(savedUsername === null){
-    //show the form
+    loginForm.classList.remove(HIDDEN_CLASSNAME);
+    loginForm.addEventListener("submit", onLoginSubmit);
 } else {
-    // show the greetings
+    greeting.innerText = `Hello ${savedUsername}`;
+    greeting.classList.remove(HIDDEN_CLASSNAME);
+    
 }
